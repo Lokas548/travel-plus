@@ -1,0 +1,113 @@
+body{
+    margin:0;
+}
+
+.page{
+    display: block;
+}
+.picture {
+    height: 900px;
+    width: 42%;
+    float:left;
+}
+
+.logo-picture{
+    margin: 70px 344px 0 72px;
+}
+
+.picture{
+    background-color: #C7A5EA;
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin-left: 72px;
+    margin-top: 80px;
+    color:#455A64;
+    font-size:26px;
+}
+
+.tokyo-boy{
+    margin-top: 180px;
+}
+
+.login{
+    float:right;
+    height: 900px;
+    width: 57%;
+}
+
+.sign-up-link{
+    position: absolute;
+    right: 21px;
+    top: 22px;
+}
+
+.sign-in{
+    margin: 190px 224px 0 224px;
+    height: 50vh;
+    width: 50vh;
+}
+
+.flex-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-text{
+    font-size: 40px;
+}
+
+.google-sign-in{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 90px 7px 90px;
+    width: 190px;
+    font-size: 14px;
+    border: 2px #455A64 solid;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.google{
+    color: #455A64;
+    text-decoration: none;
+}
+
+.google-pic{
+    padding-right: 19px;
+}
+
+.line{
+    margin-top:28px;
+    width: 370px;
+    border: 1px #455A64 solid;
+}
+
+.username-text{
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.input-style{
+    width: 360px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #EFEFEF;
+    border-color: #EFEFEF;
+    box-shadow: none;
+}
+
+.forgot-password-link{
+    color:#AC68F7;
+    text-decoration: none;
+    margin-left:250px;
+}
+
+.reg-button{
+    padding-top: 30px;
+    border: 1px black solid;
+    background-color: #AC68F7;
+}
